@@ -1,6 +1,7 @@
 # Changelog
 ## 1.0.1
-- Fixed "TOKEN" rarity in search.
+- Updated search to allow Invade Zone and Rank as usable filters
+- Fixed "TOKEN" rarity in search
 - Minor tweaks for layout for linkbacks and proper Toho copyright
 ## 1.0.0
 - Initial commit of the godzillatcgdb.com site. Major features are as follows:
