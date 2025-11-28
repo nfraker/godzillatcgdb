@@ -5,6 +5,7 @@
 - Minor tweaks for layout for linkbacks and proper Toho copyright
 - Corrected Rank rendering for Monster cards in Deck Maker
 - Refreshed Card Editor drop-downs to include EBP02 properties
+- Added the Godzilla Fest 2025 special release card collection
 ## 1.0.0
 - Initial commit of the godzillatcgdb.com site. Major features are as follows:
     - Manage collection with designations for cards owned, cards wanted, and cards for trade
