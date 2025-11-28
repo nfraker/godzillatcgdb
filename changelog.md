@@ -3,6 +3,8 @@
 - Updated search to allow Invade Zone and Rank as usable filters
 - Fixed "TOKEN" rarity in search
 - Minor tweaks for layout for linkbacks and proper Toho copyright
+- Corrected Rank rendering for Monster cards in Deck Maker
+- Refreshed Card Editor drop-downs to include EBP02 properties
 ## 1.0.0
 - Initial commit of the godzillatcgdb.com site. Major features are as follows:
     - Manage collection with designations for cards owned, cards wanted, and cards for trade
