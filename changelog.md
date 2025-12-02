@@ -1,4 +1,14 @@
 # Changelog
+## 1.1.0
+- Major features:
+    - Advanced search filter for deck editor
+    - Comprehensive deck construction validator
+    - Defaulting to visual deck list when viewing a deck
+    - Deck editor sidebars collapsible to clear space for construction
+- Major bug fixes:
+    - Fixed hard-coded urls in some forms
+    - Separated deck logic check for main vs monster decks
+    - Refactored several layout and UI inconsistencies
 ## 1.0.1
 - Updated search to allow Invade Zone and Rank as usable filters
 - Fixed "TOKEN" rarity in search
