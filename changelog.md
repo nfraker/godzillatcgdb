@@ -1,9 +1,9 @@
 # Changelog
 ## 1.1.0
 - Major features:
-    - Advanced search filter for deck editor
-    - Comprehensive deck construction validator
-    - Defaulting to visual deck list when viewing a deck
+    - Advanced search filter for deck editor [Issue #6](https://github.com/nfraker/godzillatcgdb/issues/6)
+    - Comprehensive deck construction validator [Issue #2](https://github.com/nfraker/godzillatcgdb/issues/2)
+    - Updating visual deck list for more clarity, making default view
     - Deck editor sidebars collapsible to clear space for construction
 - Major bug fixes:
     - Fixed hard-coded urls in some forms
