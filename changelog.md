@@ -1,7 +1,7 @@
 # Changelog
 ## 1.1.1
 - Major bug fixes:
-    - "Star" button automatically adds 1 to monster card count　[Issue #15](https://github.com/nfraker/godzillatcgdb/issues/15)
+    - "Star" button automatically adds 1 to monster card count [Issue #15](https://github.com/nfraker/godzillatcgdb/issues/15)
     - Fixed card URLs to use the card's ID instead of an internal database value [Issue #14](https://github.com/nfraker/godzillatcgdb/issues/14)
     - Fixed page preview embedding in other webpages
 - Minor bug fixes:
