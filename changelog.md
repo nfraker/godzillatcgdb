@@ -1,4 +1,13 @@
 # Changelog
+## 1.1.1
+- Major bug fixes:
+    - "Star" button automatically adds 1 to monster card count
+    - Fixed card URLs to use the card's ID instead of an internal database value
+    - Fixed page preview embedding in other webpages
+- Minor bug fixes:
+    - Improved traceability of page titles
+    - Improved SEO keywords and robot text
+    - Pulled Set 3 buttons until 1.2.0 is released
 ## 1.1.0
 - Major features:
     - Advanced search filter for deck editor [Issue #6](https://github.com/nfraker/godzillatcgdb/issues/6)
