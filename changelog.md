@@ -7,7 +7,6 @@
     - Added analysis view to deck viewer functionality [Issue #7](https://github.com/nfraker/godzillatcgdb/issues/7)
     - Added support for variant play format validation [Issue #16](https://github.com/nfraker/godzillatcgdb/issues/16)
     - Added support for Resonance leader rules releasing in set 3 [Issue #12](https://github.com/nfraker/godzillatcgdb/issues/12)
-    - 
 ## 1.1.1
 - Major bug fixes:
     - "Star" button automatically adds 1 to monster card count [Issue #15](https://github.com/nfraker/godzillatcgdb/issues/15)
