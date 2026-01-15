@@ -1,4 +1,14 @@
 # Changelog
+## 1.3.0
+- Major features:
+    - Added Set 3: Resonance of Rivals. Also included a handful of new promo cards that have been announced in the last few months. [Issue #10](https://github.com/nfraker/godzillatcgdb/issues/10)
+    - Added support for site themes, along with a Dark Mode theme. Change your preferred site theme from the Account Management screen. [Issue #21](https://github.com/nfraker/godzillatcgdb/issues/21)
+    - Rebuilt the collection management screen to make it a visual interface, and enable sorting/filtering cards for ease of management.
+        - NOTE: For the time being Wanted and For Trade lists have been removed until we figure out what we want to do with them.
+    - Added a CMS to the backend to support future feature development. [Issue #3](https://github.com/nfraker/godzillatcgdb/issues/3)
+- Bug fixes:
+    - Fixed an issue with the main deck color rule validation incorrectly triggering on Resonance cards [Issue #25](https://github.com/nfraker/godzillatcgdb/issues/25)
+    - Fixed an issue with the collection manager not saving records properly when the count is equal to 0. [Issue #1](https://github.com/nfraker/godzillatcgdb/issues/1)
 ## 1.2.0
 - Major features:
     - Refactored deck builder to behave more intuitively
