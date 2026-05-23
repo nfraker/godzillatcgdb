@@ -1,4 +1,12 @@
 # Changelog
+## 2.0.0
+- Major features:
+    - Upgraded underlying infrastructure (Laravel, PHP, MySQL, JQuery, Boostrap) to the latest major versions of each [Issue #39](https://github.com/nfraker/godzillatcgdb/issues/39)
+    - Added Set 4: Endless Wars [Issue #41](https://github.com/nfraker/godzillatcgdb/issues/41)
+    - Updated Bulkzilla to comply with new "Common or Uncommon" rule change [Issue #40](https://github.com/nfraker/godzillatcgdb/issues/40)
+- Bug Fixes:
+    - Corrected monster deck trait chain to accurately reflect comp rules
+    - Updated list of "unlimited" count cards to include EBP03 and EBP04 releases
 ## 1.3.0
 - Major features:
     - Added Set 3: Resonance of Rivals. Also included a handful of new promo cards that have been announced in the last few months. [Issue #10](https://github.com/nfraker/godzillatcgdb/issues/10)
