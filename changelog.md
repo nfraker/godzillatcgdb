@@ -1,4 +1,22 @@
 # Changelog
+## 2.1.0
+- Major Features:
+    - Upgraded to Bootstrap 5 [Issue #44](https://github.com/nfraker/godzillatcgdb/issues/44)
+    - Merged cards into "base" and "variant" hierarchy [Issue #45](https://github.com/nfraker/godzillatcgdb/issues/45)
+    - Add screenshot export when deck is saved for use in opengraph [Issue #20](https://github.com/nfraker/godzillatcgdb/issues/20)
+    - Add card draw simulator [Issue #18](https://github.com/nfraker/godzillatcgdb/issues/18)
+- Minor Features:
+    - Changed out sparkle effect with a rainbow foil that is less CPU intensive
+    - Migrated img assets to S3 and Cloudfront for more resource efficient distribution
+    - Refactored logic checks for one-off card rule exemptions to use array of parent_id values
+- Bug Fixes:
+    - Fixed issue with three-color cards not being properly calculated for deck list
+    - Fixed horizontal rendering of Godzilla Earth and Token cards
+    - Made password fields "Nullable" in User model to ignore blank passwords when editing user profile
+    - Restored flash banners notifying users of CRUD actions
+    - Fixed decks being flagged as "Resonance" even when they aren't
+    - Centered isotope grids
+    - Fixed odd whitespacing issues found throughout the site
 ## 2.0.0
 - Major features:
     - Upgraded underlying infrastructure (Laravel, PHP, MySQL, JQuery, Boostrap) to the latest major versions of each [Issue #39](https://github.com/nfraker/godzillatcgdb/issues/39)
