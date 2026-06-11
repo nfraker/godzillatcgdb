@@ -1,4 +1,10 @@
 # Changelog
+## 2.1.1
+- Bug Fixes:
+    - Fixed infinite scroll javascript bug in decks list
+    - Fixed search filters for deck list
+    - Fixed form fields in search page that were not resizing responsively
+    - Fixed button CSS so selected state is visible
 ## 2.1.0
 - Major Features:
     - Upgraded to Bootstrap 5 [Issue #44](https://github.com/nfraker/godzillatcgdb/issues/44)
