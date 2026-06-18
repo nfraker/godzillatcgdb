@@ -1,4 +1,18 @@
 # Changelog
+## 2.2.0
+- Major Features:
+    - Added ability to copy public and owned decks [Issue #22](https://github.com/nfraker/godzillatcgdb/issues/22)
+    - Added Deck History Backfill & Screenshots background process for administrators
+    - Connected "Next" and "Previous" card navigation buttons dynamically to active search results
+- Minor Features:
+    - Standardized UI touch target sizes for mobile accessibility across the application
+    - Improved card image pre-loading to prevent page jumping during variant animations
+    - Added smooth horizontal swipe animation for navigating card variants on mobile
+    - Standardized modal "Submit" / "Done" buttons across the application for improved UX
+- Bug Fixes:
+    - Fixed Isotope grid crash ("Cannot read properties of null") when rapidly clicking collection or search filters
+    - Fixed broken full-size image modal click handlers on virtual lazy-loaded collection cards
+    - Fixed bug causing horizontal layout overflow for some stacked search result grids
 ## 2.1.1
 - Bug Fixes:
     - Fixed infinite scroll javascript bug in decks list
