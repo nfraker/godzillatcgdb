@@ -1,14 +1,15 @@
 # Changelog
 ## 2.2.1
 - Minor Features:
-    - Redesigned mobile deck builder UI with swipeable variant artworks and streamlined bottom drawer
-    - Implemented click-to-close behavior on Magnific Popup modals and removed 'X' close button
+    - Refreshed card database to add 43 missing cards from web sources [Issue #52](https://github.com/nfraker/godzillatcgdb/issues/52)
+    - Implemented tournament restrictions for Oxygen Destroyer, Satsuma / Shin Combo [Issue #56](https://github.com/nfraker/godzillatcgdb/issues/56)
+    - Improved deck builder UX for desktop and mobile users [Private #22](https://github.com/nfraker/GTCGDB/issues/22), [Private #30](https://github.com/nfraker/GTCGDB/issues/30)
 - Bug Fixes:
+    - Cleaned up Z-Index values for modals and shades/drawers
+    - Resolved issue with rank not rendering correctly in javascript tooltips 
     - Fixed full-size image loading issue in modal (removed CloudFront dynamic resizing)
-    - Fixed modal z-index layering to correctly overlay Bootstrap Offcanvas drawers
     - Synchronized desktop grid "Monster Deck" active toggle state
     - Corrected "View Details" button URL to load the exact variant ID on desktop grids
-    - Added deck building rule validations for mutually exclusive cards (Satsuma / Godzilla 2nd Form) and restricted counts (Oxygen Destroyer)
 ## 2.2.0
 - Major Features:
     - Added ability to copy public and owned decks [Issue #22](https://github.com/nfraker/godzillatcgdb/issues/22)
