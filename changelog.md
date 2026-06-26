@@ -1,4 +1,12 @@
 # Changelog
+## 2.2.1
+- Minor Features:
+    - Refreshed card database to add 43 missing cards from web sources [Issue #52](https://github.com/nfraker/godzillatcgdb/issues/52)
+    - Implemented tournament restrictions for Oxygen Destroyer, Satsuma / Shin Combo [Issue #56](https://github.com/nfraker/godzillatcgdb/issues/56)
+    - Improved deck builder UX for desktop and mobile users [Private #22](https://github.com/nfraker/GTCGDB/issues/22), [Private #30](https://github.com/nfraker/GTCGDB/issues/30)
+- Bug Fixes:
+    - Cleaned up Z-Index values for modals and shades/drawers
+    - Resolved issue with rank not rendering correctly in javascript tooltips 
 ## 2.2.0
 - Major Features:
     - Added ability to copy public and owned decks [Issue #22](https://github.com/nfraker/godzillatcgdb/issues/22)
