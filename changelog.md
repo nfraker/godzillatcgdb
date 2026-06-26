@@ -7,6 +7,9 @@
 - Bug Fixes:
     - Cleaned up Z-Index values for modals and shades/drawers
     - Resolved issue with rank not rendering correctly in javascript tooltips 
+    - Fixed full-size image loading issue in modal (removed CloudFront dynamic resizing)
+    - Synchronized desktop grid "Monster Deck" active toggle state
+    - Corrected "View Details" button URL to load the exact variant ID on desktop grids
 ## 2.2.0
 - Major Features:
     - Added ability to copy public and owned decks [Issue #22](https://github.com/nfraker/godzillatcgdb/issues/22)
